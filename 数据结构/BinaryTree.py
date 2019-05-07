@@ -22,10 +22,10 @@ class BinaryTree:
             t.right = self.right
             self.right = t
 
-    def getLeft(self):
+    def getLeft(self):  # 指针
         return self.left
 
-    def getRight(self):
+    def getRight(self):  # 指针
         return self.right
 
     def setRootVal(self, obj):
@@ -34,11 +34,23 @@ class BinaryTree:
     def getRootVal(self):
         return self.key
 
-    def preorder(self, tree):
+    def preorder(self, tree):  # 前序遍历
         if tree:
             print(tree.getRootVal())
             self.preorder(tree.getLeft())
             self.preorder(tree.getRight())
+
+    def inorder(self, tree):  # 中序遍历
+        if tree:
+            self.inorder(tree.getLeft())
+            print(tree.getRootVal())
+            self.inorder(tree.getRight())
+
+    def posorder(self, tree):  # 后序遍历
+        if tree:
+            self.posorder(tree.getLeft())
+            self.posorder(tree.getRight())
+            print(tree.getRootVal())
 
 if __name__ == "__main__":
     tree = BinaryTree('root')
@@ -47,6 +59,12 @@ if __name__ == "__main__":
     print(tree.getRootVal())
     print(tree.getLeft().getRootVal())
     print(tree.getRight().getRootVal())
-    tree.insertLeft('3a')
-    print(tree.getLeft().getRootVal())
-    print(tree.getLeft().getLeft().getRootVal())
+    tree.getLeft().insertLeft('3a')
+    tree.getLeft().insertRight('3b')
+    tree.getRight().insertLeft('3c')
+    print('前序遍历:')
+    tree.preorder(tree)
+    print('中序遍历:')
+    tree.inorder(tree)
+    print('后序遍历:')
+    tree.posorder(tree)
