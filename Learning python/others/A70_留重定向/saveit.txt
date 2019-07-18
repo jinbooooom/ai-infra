@@ -1,4 +1,0 @@
-linux
-/home/jinbo/gitme/my-python-learning/A70_留重定向
-------------------------------
-hello world

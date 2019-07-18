@@ -1,0 +1,4 @@
+linux
+/home/jinbo/gitme/dl-algorithm-coding/Learning python/零碎知识点/留重定向
+------------------------------
+hello world
