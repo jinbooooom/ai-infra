@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-
 class Node(object):
     def __init__(self, value):
         # 元素域
@@ -8,12 +7,11 @@ class Node(object):
         self.next = None
 
 class UnorderedList(object):  # 单向线性表
-    "reference:https://www.cnblogs.com/yifeixu/p/8954991.html"
-
+    """reference:https://www.cnblogs.com/yifeixu/p/8954991.html"""
     def __init__(self, node=None):
         self.__head = node
 
-    def __len__(self):
+    def __len__(self):  # size
         # 游标 cursor ，用来遍历链表
         cur = self.__head
         # 记录遍历次数
