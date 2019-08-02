@@ -7,4 +7,5 @@ data/*
 
 **/coding/*
 !**/coding/*.Cpp
+!**/coding/*.md
 
