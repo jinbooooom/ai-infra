@@ -3,3 +3,8 @@ push.sh
 reference/*
 data/*
 **/.vs/*
+**/ConsoleApplication1/*
+
+**/coding/*
+!**/coding/*.Cpp
+
