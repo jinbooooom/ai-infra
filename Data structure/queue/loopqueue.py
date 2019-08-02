@@ -57,7 +57,7 @@ class LoopQueue(object):
         self.front = (self.front+1) % len(self.arr)
         self.size -= 1
 
-        # 如果元素个数少于容积的1/4并且元素个数
+        # 如果元素个数少于容积的1/4并且元素个数大于1
         if self.size < self.get_capaticty() // 4 and self.get_capaticty() > 1:
             self.resize(self.get_capaticty() // 2)
         return result
