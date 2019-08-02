@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 
+
 class BinaryTree:
+
     def __init__(self, rootObj):
         self.key = rootObj
         self.left = None

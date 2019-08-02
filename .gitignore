@@ -2,3 +2,4 @@ push.sh
 .idea/*
 reference/*
 data/*
+**/.vs/*

@@ -17,6 +17,9 @@ class Queue:
     def size(self):
         return len(self.items)
 
+    def clear(self):  # 设置为空队列
+        del self.items[:]
+
 if __name__ == "__main__":
     q = Queue()
     q.enqueue(9)
@@ -29,8 +32,7 @@ if __name__ == "__main__":
     print(q.items)
     print(q.size())
     print(q.isEmpty())
-    q.dequeue()
-    q.dequeue()
+    q.clear()
     print(q.items)
     print(q.size())
     print(q.isEmpty())

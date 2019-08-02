@@ -6,6 +6,7 @@ class Node(object):
         # 链接域
         self.next = None
 
+
 class UnorderedList(object):  # 单向线性表
     """reference:https://www.cnblogs.com/yifeixu/p/8954991.html"""
     def __init__(self, node=None):
