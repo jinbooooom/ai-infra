@@ -1,20 +1,19 @@
 # -*- coding:utf-8 -*-
 class Node(object):
-    def __init__(self, value):
+    def __init__(self, item):
         # 元素域
-        self.value = value
+        self.item = item
         # 链接域
         self.next = None
 
 
-class UnorderedList(object):  # 单向线性表
-    """reference:https://www.cnblogs.com/yifeixu/p/8954991.html"""
+class List(object):  # 单链表
     def __init__(self, node=None):
-        self.__head = node
+        self.head = node
 
     def __len__(self):  # size
         # 游标 cursor ，用来遍历链表
-        cur = self.__head
+        cur = self.head
         # 记录遍历次数
         count = 0
         # 当前节点为None则说明已经遍历完毕
@@ -23,80 +22,103 @@ class UnorderedList(object):  # 单向线性表
             cur = cur.next
         return count
 
-    def isEmpty(self):
-        # 头节点不为None则不为空
-        return self.__head == None
-
-    def add(self, value):  # 链表头部添加元素
+    def add(self, item):  # 链表头部添加元素
         """
         头插法
         先让新节点的next指向头节点
         再让头节点指向新节点
         顺序不可错，要先保证原链表的链不断，否则头节点后面的链会丢失
         """
-        node = Node(value)
-        node.next = self.__head
-        self.__head = node  # node是最新插入节点的地址
+        node = Node(item)
+        node.next = self.head
+        self.head = node  # node是最新插入节点的地址
 
-    def append(self, value):  # 链表尾部添加元素
+    def append(self, item):  # 链表尾部添加元素
         """尾插法"""
-        node = Node(value)
-        cur = self.__head
+        node = Node(item)
+        cur = self.head
         if self.isEmpty():
-            self.__head = node
+            self.head = node
         else:
             while cur.next:
                 cur = cur.next
             cur.next = node
 
-    def insert(self, pos, value):  # 指定位置添加元素
-        # 应对特殊情况:插入位置小于 0 就使用头插法，插入位置溢出长度就采用尾插法
+    def insert(self, pos, item):  # 指定位置添加元素,下标从零开始
+        # 特殊情况，若 pos <= 0，使用头插法；若 pos >= len(list)，使用尾插法。
         if pos <= 0:
-            self.add(value)
-        elif pos > len(self) - 1:
-            self.append(value)
+            self.add(item)
+        elif pos >= len(self):
+            self.append(item)
         else:
-            node = Node(value)
-            prior = self.__head
-            count = 0
-            # 在插入位置的前一个节点停下
-            while count < (pos - 1):
-                prior = prior.next
-                count += 1
-            # 先将插入节点与节点后的节点连接，防止链表断掉，先链接后面的，再链接前面的
-            node.next = prior.next
-            prior.next = node
+            cur = self.head
+            node = Node(item)
+            while pos - 1:
+                # 从 0(self.__head) 到 pos 位置，cur 要移动 pos 次
+                # 但只移动 pos - 1 就好，因为前面一个节点能找到后面的节点，后面的节点找不到前面的节点。
+                cur = cur.next
+                pos -= 1
+            # cur 最终指向要插入的位置前面一个节点
+            node.next = cur.next
+            cur.next = node
 
-    def remove(self, value):  # 删除节点
-        cur = self.__head
+    def remove(self, item):  # 删除值等于 item 的节点
+        cur = self.head
         prior = None
         while cur:
-            if value == cur.value:
-                # 判断此节点是否是头节点
-                if cur == self.__head:
-                    self.__head = cur.next
+            if cur.item == item:
+                if cur == self.head:  # 如果删除第一个节点
+                    self.head = self.head.next
+                elif not cur.next:  # 如果删除最后一个节点
+                    prior.next = None
                 else:
                     prior.next = cur.next
-                break
-            # 还没找到节点，有继续遍历
+                break  # 此时的 cur 始终为 True，得跳出。
             else:
                 prior = cur
                 cur = cur.next
 
-    def search(self, value):  # 查找节点是否存在
-        cur = self.__head
+    def search(self, item):  # 查找节点是否存在
+        cur = self.head
         while cur:
-            if value == cur.value:
+            if cur.item == item:
                 return True
-            cur = cur.next
+            else:
+                cur = cur.next
         return False
 
+    def isEmpty(self):
+        # 头节点不为 None 则不为空
+        return not self.head
+
     def traverse(self):  # 遍历整个链表
-        cur = self.__head
+        cur = self.head
+        t = []
         while cur:
-            print(cur.value)
+            t.append(cur.item)
             cur = cur.next
+        print(t)
 
 if  __name__ == "__main__":
-    l = UnorderedList()
-    print(l.isEmpty())
+    L = List()
+    print(L.isEmpty())
+    L.append(6)
+    L.append(7)
+    L.add(4)
+    L.add(3)
+    L.traverse()
+    L.insert(9, 'hello')
+    L.insert(2, 5)
+    L.traverse()
+    print(L.search(5))
+    print(L.search(99))
+    L.traverse()
+    L.remove(4)
+    L.traverse()
+    L.remove(3)
+    L.traverse()
+    L.remove('hello')
+    L.traverse()
+    L.remove(99)
+    L.traverse()
+    print(len(L))
