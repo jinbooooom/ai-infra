@@ -7,7 +7,7 @@ class Node(object):
         self.next = None
 
 
-class List(object):  # 单链表
+class LinkedList(object):  # 单链表
     def __init__(self, node=None):
         self.head = node
 
@@ -100,7 +100,7 @@ class List(object):  # 单链表
         print(t)
 
 if  __name__ == "__main__":
-    L = List()
+    L = LinkedList()
     print(L.isEmpty())
     L.append(6)
     L.append(7)
