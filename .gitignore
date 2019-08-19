@@ -1,6 +1,6 @@
 push.sh
 .idea/*
-reference/*
+_reference/*
 data/*
 **/.vs/*
 **/ConsoleApplication1/*
