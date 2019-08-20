@@ -5,3 +5,7 @@ SSD 是一个 one-stage 目标检测器，使用 VGG16 网络作为特征提取网络，但是将 VGG16的
 ![SSD1](sources/SSD1.PNG)
 
 ### SSD有哪些创新点？
+
+
+####推荐/参考链接
+- [SSD检测小目标](https://www.zhihu.com/search?type=content&q=ssd%E6%A3%80%E6%B5%8B%E5%B0%8F%E7%9B%AE%E6%A0%87)

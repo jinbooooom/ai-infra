@@ -12,8 +12,10 @@ SPP-Net对这些网络中存在的缺点进行了改进，基本思想是，输�
 将任意尺寸的feature map用三个尺度的金字塔层分别池化，将池化后的结果拼接得到固定长度的特征向量（图中的256为filter的个数），送入全连接层进行后续操作。  
 （后来的Fast RCNN网络即借鉴了spp的思想。其中的ROI Pooling可理解为单尺度的SPP层）
 （将4\*4,2\*2,1\*1网格放到feature map上，可以得到1+4+16=21个不同的块(spatial bin)，从21个块中，每一个块使用max pooling，可得到21个特征向量）
+![spp-net3](sources/spp-net3.png)
 
 #### 推荐/参考链接
 - [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729)
 - [SppNet中的spatial pyramid pooling](https://www.jianshu.com/p/884c2828cd8e)
 - [SPP-Net](https://www.jianshu.com/p/b2fa1df5e982)
+- [【目标检测】SPP-net](https://zhuanlan.zhihu.com/p/60919662)
