@@ -41,7 +41,7 @@ VGG耗费更多计算资源，并且使用了更多的参数（这里不是3x3�
 
 PS：有的文章称：发现这些全连接层即使被去除，对于性能也没有什么影响，这样就显著降低了参数数量。
 
-注：很多pretrained的方法就是使用VGG的model（主要是16和19），VGG相对其他的方法，参数空间很大，最终的model有500多m，AlexNet只有200m，GoogLeNet更少，所以train一个vgg模型通常要花费更长的时间，所幸有公开的pretrained model让我们很方便的使用。
+注：很多pretrained的方法就是使用VGG的model（主要是16和19），VGG相对其他的方法，参数空间很大，最终的model有500多m，AlexNet只有200m，GoogLeNet更少，所以train一个vgg模型通常要花费更长的时间，所幸有公开的pretrained model让我们很方便的使用。b
 
 
 关于感受野：
@@ -51,10 +51,8 @@ PS：有的文章称：发现这些全连接层即使被去除，对于性能也
 
 ### 推荐/参考：
 
-[《Very Deep Convolutional Networks for Large-Scale Image Recognition》](https://arxiv.org/abs/1409.1556)
-
-[深度网络VGG理解](https://blog.csdn.net/wcy12341189/article/details/56281618)
-
-[深度学习经典卷积神经网络之VGGNet](https://blog.csdn.net/marsjhao/article/details/72955935)
-
-[VGG16 结构可视化](https://dgschwend.github.io/netscope/#/preset/vgg-16)
+- [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+- [CS231n Convolutional Neural Networks](http://cs231n.github.io/convolutional-networks/)
+- [深度网络VGG理解](https://blog.csdn.net/wcy12341189/article/details/56281618)
+- [深度学习经典卷积神经网络之VGGNet](https://blog.csdn.net/marsjhao/article/details/72955935)
+- [VGG16 结构可视化](https://dgschwend.github.io/netscope/#/preset/vgg-16)

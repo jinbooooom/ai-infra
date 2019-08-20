@@ -1,10 +1,12 @@
 ﻿## 深度学习（视觉方向）学习与面试资料整理
 ### Linux
-- [linux 常用命令](Offer/Linux/Linux.md)
+- [linux 常用命令](Offer/Linux/Linux.md) 
 ### 深度学习
 #### 分类
+- [VGG](Offer/DL/classify/VGG.md)
 #### 目标检测
 - [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
+- [RCNN 系列](Offer/DL/object-detection/RCNN.md)
 
 
 
