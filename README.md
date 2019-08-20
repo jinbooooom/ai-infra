@@ -8,7 +8,9 @@
 - [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
 - [RCNN 系列](Offer/DL/object-detection/RCNN.md)
 - [YOLOv1](Offer/DL/object-detection/YOLOv1.md)
+- [SSD](Offer/DL/object-detection/SSD.md)
 - [YOLOv2](Offer/DL/object-detection/YOLOv2.md)
+- [YOLOv3](Offer/DL/object-detection/YOLOv3.md)
 
 
 
