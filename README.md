@@ -13,4 +13,8 @@
 ### 掌握的知识点
 - [一文弄懂神经网络中的反向传播算法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html)
 
+## 目录
+### Linux
+- [linux 常用命令](Offer/Linux/Linux.md)
+
 
