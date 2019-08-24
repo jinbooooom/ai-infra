@@ -4,7 +4,10 @@
 ### 深度学习
 - [基础理论](Offer/DL/DL.md)
 - [分类](Offer/DL/classify/classify.md)
+	- [LeNet5](Offer/DL/classify/LeNet5.md)
+	- [AlexNet](Offer/DL/classify/AlexNet.md)
 	- [VGG](Offer/DL/classify/VGG.md)
+	- [resnet](Offer/DL/classify/resnet.md)
 - [目标检测](Offer/DL/object-detection-basic.md)
 	- [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
 	- [RCNN 系列](Offer/DL/object-detection/RCNN.md)
