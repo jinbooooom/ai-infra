@@ -29,7 +29,8 @@ valid模式下：
 [HB381]  
 
 ### 1 * 1 卷积核的理解
-![1_1_kernel](sources/1_1_kernel1.jpg)
-![1_1_kernel](sources/1_1_kernel2.PNG)
+![1_1_kernel](sources/1_1_kernel.PNG)  
+![1_1_kernel](sources/1_1_kernel1.PNG)  
+![1_1_kernel](sources/1_1_kernel2.PNG)  
 
 
