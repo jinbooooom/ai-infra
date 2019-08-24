@@ -2,15 +2,16 @@
 ### Linux
 - [linux 常用命令](Offer/Linux/Linux.md) 
 ### 深度学习
-#### 分类
-- [VGG](Offer/DL/classify/VGG.md)
-#### 目标检测
-- [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
-- [RCNN 系列](Offer/DL/object-detection/RCNN.md)
-- [YOLOv1](Offer/DL/object-detection/YOLOv1.md)
-- [SSD](Offer/DL/object-detection/SSD.md)
-- [YOLOv2](Offer/DL/object-detection/YOLOv2.md)
-- [YOLOv3](Offer/DL/object-detection/YOLOv3.md)
+- [基础理论](Offer/DL/DL.md)
+- [分类](Offer/DL/classify/classify.md)
+	- [VGG](Offer/DL/classify/VGG.md)
+- [目标检测](Offer/DL/object-detection-basic.md)
+	- [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
+	- [RCNN 系列](Offer/DL/object-detection/RCNN.md)
+	- [YOLOv1](Offer/DL/object-detection/YOLOv1.md)
+	- [SSD](Offer/DL/object-detection/SSD.md)
+	- [YOLOv2](Offer/DL/object-detection/YOLOv2.md)
+	- [YOLOv3](Offer/DL/object-detection/YOLOv3.md)
 
 
 
