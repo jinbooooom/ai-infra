@@ -1,14 +1,14 @@
 ﻿### 目标检测中的包围框回归
-包围框回归公式都来自于R-CNN系列  
-![bounding_box_regression](sources/bounding_box_regression.PNG)
-用人话来说就是：
+包围框回归公式都来自于R-CNN  
+![bounding_box_regression](sources/bounding_box_regression.PNG)  
+**用人话来说就是：**    
 ![bbox_regression1](sources/bbox_regression1.jpg)
 ![bbox_regression2](sources/bbox_regression2.jpg)
 ![bbox_regression3](sources/bbox_regression3.jpg)
-对于YOLO系列，用YOLOv2来说，还是套用 R-CNN 的公式：
+**对于YOLO系列，用YOLOv2来说，还是套用 R-CNN 的公式：**
 ![YOLOv2_box_regression](sources/YOLOv2_box_regression2.PNG)
 ![YOLOv2_box_regression](sources/YOLOv2_box_regression.PNG)
-
+  
 ### 简单介绍下NMS
 NMS步骤如下：
 - 1.设置一个Score的阈值，一个IOU的阈值；
