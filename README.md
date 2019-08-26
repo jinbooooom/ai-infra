@@ -2,7 +2,11 @@
 ### Linux
 - [linux 常用命令](Offer/Linux/Linux.md) 
 ### 机器学习
-- [感知机]()
+- [统计学习方法概论](Offer/ML/ML.md)
+- [感知机](Offer/ML/perceptron.md)
+- [k近邻](Offer/ML/knn.md)
+- [逻辑回归](Offer/ML/LR.md)
+- [k-means](Offer/ML/k-means.md)
 ### 深度学习
 - [基础理论](Offer/DL/DL.md)
 	- [same方式卷积中padding的好处](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#same%E6%96%B9%E5%BC%8F%E5%8D%B7%E7%A7%AF%E4%B8%ADpadding%E7%9A%84%E5%A5%BD%E5%A4%84)
