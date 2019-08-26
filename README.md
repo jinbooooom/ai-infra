@@ -16,7 +16,7 @@
 	- [VGG](Offer/DL/classify/VGG.md)
 	- [resnet](Offer/DL/classify/resnet.md)
 - [目标检测](Offer/DL/object-detection/object-detection-basic.md)
-	- 目标检测基础
+	- [目标检测基础](Offer/DL/object-detection/object-detection-basic.md)
 		- [包围框回归](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/object-detection/object-detection-basic.md#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%AD%E7%9A%84%E5%8C%85%E5%9B%B4%E6%A1%86%E5%9B%9E%E5%BD%92)
 		- [NMS](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/object-detection/object-detection-basic.md#%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8Bnms)
 	- [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
