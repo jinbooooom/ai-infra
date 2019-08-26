@@ -8,3 +8,11 @@ YOLOv1是one-stage detection的开山之作，YOLO创造性的将物体检测任
 在 VOC数据集上，S=7，B=2，C=20。  
 YOLOv1使用了end-to-end的回归方法，没有region proposal步骤，直接回归便完成了位置和类别的预测。由于YOLO网格设置比较稀疏，且每个网格只预测2个边界框，其总体预测精度不高，略低于Fast RCNN。其对小物体的检测效果较差，尤其是对密集的小物体表现比较差。
 ![YOLOv1net](sources/YOLOv1net.PNG)
+
+### 如何理解损失函数
+![loss](sources/YOLOv1_loss.png)  
+
+
+#### 推荐/参考链接
+- [YOLO损失函数解析——你真的读懂YOLO了嘛？](https://blog.csdn.net/WenDayeye/article/details/88807190)
+- [YOLO 系列损失函数理解](https://www.cnblogs.com/WSX1994/p/11226012.html)
