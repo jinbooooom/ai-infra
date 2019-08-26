@@ -16,11 +16,12 @@ SSDÓëYOLOv1¶¼²ÉÓÃCNN£¬µ«SSDÈ´²ÉÓÃÁË¶à³ß¶ÈµÃÌØÕ÷Í¼¡£¸ù¾ÝSSDÂÛÎÄ2.1Model²¿·Ö£¬SSDµ
 ÓëYolo×îºó²ÉÓÃÈ«Á¬½Ó²ã²»Í¬£¬SSDÖ±½Ó²ÉÓÃ¾í»ý¶Ô²»Í¬µÄÌØÕ÷Í¼À´½øÐÐÌáÈ¡¼ì²â½á¹û¡£¶ÔÓÚÐÎ×´Îª m \* n \* p µÄÌØÕ÷Í¼£¬Ö»ÐèÒª²ÉÓÃ 3 \* 3 \* p ÕâÑù±È½ÏÐ¡µÄ¾í»ýºËµÃµ½¼ì²âÖµ¡£ 
 #### 3.ÉèÖÃÏÈÑé¿ò
 SSD½è¼øÁËFaster R-CNNÖÐanchorµÄÀíÄî£¬¸øÃ¿Ò»¸ö¸ñ×ÓÉèÖÃ²»Í¬³¤¿í±ÈµÄÏÈÑé£¬´ÓµÍÎ¬ÌØµ½¸ßÎ¬ÌØÕ÷Í¼ÓÐConv4_3£¬Conv7£¬Conv8_2£¬Conv9_2£¬Conv10_2£¬Conv11_2£¬Æä size ·Ö±ðÊÇ 38 \* 38 £¬19 \* 19 £¬10 \* 10 £¬5 \* 5 £¬3 \* 3 £¬1 \* 1 £¬µ«ÊÇ²»Í¬ÌØÕ÷Í¼ÉèÖÃµÄÏÈÑé¿òÊýÄ¿²»Í¬£¬²»Í¬²ã feature map º¬ÓÐµÄÏÈÑé¿òÊýÄ¿·Ö±ðÎª£º4£¬6£¬6£¬6£¬6£¬4¡£ÎÒÃÇÉèÄ³Ò»²ã feature map ³ß´çÎª m \* n£¬ÏÈÑé¿òÓÐ k ¸ö¡£Êý¾Ý¼¯Àà±ðÓÐ c-1 ¸ö£¨×¢ÒâSSDÔ¤²âÊÇ°üº¬±³¾°ÀàµÄ£©£¬ÄÇÃ´ÕâÒ»²ãÌØÕ÷Í¼ÐèÒª£¨c+4£©\*k¸ö¾í»ýºË£¬¹²Ô¤²â (c+4)kmn ¸öÊä³ö¡£  
-¶ÔÓÚÏÈÑé¿òµÄ³ß¶È£¬×ñÑ­Ò»¸öÏÖÏóµÝÔöµÄ¹æÔò£º  
+¶ÔÓÚÏÈÑé¿òµÄ³ß¶È£¬×ñÑ­Ò»¸öÏßÐÔµÝÔöµÄ¹æÔò£º  
 Ëæ×Åfeature map´óÐ¡¼õÉÙ£¬ÏÈÑé¿ò³ß¶ÈÏßÐÔÔö¼Ó£º  
 ![prior](sources/SSD_prior.PNG)
 ![prior](sources/SSD_prior2.png)
 ![prior](sources/SSD_prior3.png)
+**ÏÈÑé¿òµÄÉèÖÃÒ²¿ÉÒÔ°´ÕÕÍ¼¡¾SSD300ÊÖ»­ÏêÏ¸°æ¡¿µÄÓÒÉÏ½ÇÊ½×ÓÀ´¼ÆËã**  
 
 ### ÑµÁ·Ê±µÄÏÈÑé¿òÆ¥Åä²ßÂÔ
 - Ê×ÏÈ£¬Ñ°ÕÒÓëÃ¿Ò»¸öground truthÓÐ×î´óµÄIoUµÄdefault box£¬ÕâÑù¾ÍÄÜ±£Ö¤ground truthÖÁÉÙÓÐdefault boxÆ¥Åä£»
