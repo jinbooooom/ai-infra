@@ -37,7 +37,7 @@ P(y=0│x;θ)=1-hθ (x)
 ### 公式推导[NGML94]  
 ![](sources/logist_regression.PNG)
 
-逻辑回归伪代码
+### 逻辑回归伪代码
 ```
 初始化线性函数参数为1  
 构造sigmoid函数  
@@ -53,6 +53,10 @@ P(y=0│x;θ)=1-hθ (x)
 ![sigmoid](sources/sigmoid.PNG)  
 ![model1](sources/h_model1.PNG)  
 ![model2](sources/h_model2.PNG)  
+
+### 用逻辑回归解决多分类  
+![](sources/LR1.png)  
+![](sources/LR2.png)  
 
 推荐/参考链接
 - [吴恩达深度学习笔记](http://www.ai-start.com/ml2014/html/week3.html#header-n6)
