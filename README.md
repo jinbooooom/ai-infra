@@ -4,6 +4,7 @@
 ### 机器学习
 - [统计学习方法概论](Offer/ML/ML.md)
 - [感知机](Offer/ML/perceptron.md)
+- [线性回归](Offer/ML/liner_regression.md)
 - [k近邻](Offer/ML/knn.md)
 - [逻辑回归](Offer/ML/LR.md)
 - [k-means](Offer/ML/k-means.md)
