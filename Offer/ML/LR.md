@@ -50,7 +50,7 @@ P(y=0│x;θ)=1-hθ (x)
 ```
 
 ### 通过判定边界，更好的理解逻辑回归
-![sigmod](sources/sigmod.PNG)  
+![sigmoid](sources/sigmoid.PNG)  
 ![model1](sources/h_model1.PNG)  
 ![model2](sources/h_model2.PNG)  
 

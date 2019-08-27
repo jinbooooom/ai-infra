@@ -1,4 +1,15 @@
-﻿## 卷积
+﻿### 激活函数对比
+[NGDL91]
+![activation](sources/activation_functions.jpg)
+- 1.tanh 函数几乎在所有情况下都优于sigmod函数，但有一个例外，在二分类问题上，y值是0或1，所以y尖（y头上有一个^号）值介于[0, 1]，而不是[-1, 1]，此时需要用sigmoid
+- 2.sigmoid 和 tanh 函数的共同特点，当 Z->正负无穷，函数的梯度变得很小，接近于零，导致梯度下降的速度变慢。
+- 3.ReLU
+	- a.当 z 是负值时，导数等于0，即一旦神经元激活值进入负半区，这个神经元就不会训练，即所谓稀疏性。
+	- b.ReLU函数的导数程序实现即一个 if-else语句，而sigmoid函数需要进行浮点四则运算，使用ReLU能加快计算。
+	- c.**ReLU函数在z > 0 时导数均为常数，不会产生梯度弥散现象，而sigmoid与tanh函数的导数在正负饱和区的导数都接近于0，产生梯度弥散。**这是使用ReLU与Leaky ReLU的主要原因。
+- 4.在实际应用中，Leaky ReLU比ReLU效果好，虽然Leaky ReLU用的不多。
+
+## 卷积
 [NGDL356, 372]
 ### same方式卷积中padding的好处：
 - 若不使用 padding，每次作卷积图像都会缩小
