@@ -38,4 +38,5 @@ SSD½è¼øÁËFaster R-CNNÖĞanchorµÄÀíÄî£¬¸øÃ¿Ò»¸ö¸ñ×ÓÉèÖÃ²»Í¬³¤¿í±ÈµÄÏÈÑé£¬´ÓµÍÎ¬ÌØµ
 - [Ä¿±ê¼ì²â|SSDÔ­ÀíÓëÊµÏÖ](https://zhuanlan.zhihu.com/p/33544892)
 - [SSD¼ì²âĞ¡Ä¿±ê](https://www.zhihu.com/search?type=content&q=ssd%E6%A3%80%E6%B5%8B%E5%B0%8F%E7%9B%AE%E6%A0%87)
 - [Ä¿±ê¼ì²âÖ®YOLO£¬SSD](http://lanbing510.info/2017/08/28/YOLO-SSD.html)
+- [Éî¶ÈÑ§Ï°±Ê¼Ç£¨Æß£©SSD ÂÛÎÄÔÄ¶Á±Ê¼Ç¼ò»¯](https://www.cnblogs.com/xuanyuyt/p/7447111.html#FeedBack)
 
