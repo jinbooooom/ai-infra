@@ -2,6 +2,9 @@
 
 ### Linux
 - [linux 常用命令](Offer/Linux/Linux.md) 
+- [git 常用命令](Offer/Linux/git.md)
+- [markdown 常用语法](Offer/Linux/markdown_note.md) 
+- [深度学习环境配置](Offer/Linux/my_ubuntu16.04_DL_config.md)
 
 ### 机器学习
 - [统计学习方法概论](Offer/ML/ML.md)
