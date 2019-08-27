@@ -1,6 +1,8 @@
 ﻿## 深度学习（视觉方向）学习与面试资料整理
+
 ### Linux
 - [linux 常用命令](Offer/Linux/Linux.md) 
+
 ### 机器学习
 - [统计学习方法概论](Offer/ML/ML.md)
 - [感知机](Offer/ML/perceptron.md)
@@ -8,22 +10,31 @@
 - [k近邻](Offer/ML/knn.md)
 - [逻辑回归](Offer/ML/LR.md)
 - [k-means](Offer/ML/k-means.md)
+
 ### 深度学习
 - [基础理论](Offer/DL/DL.md)
-	- [same方式卷积中padding的好处](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#same%E6%96%B9%E5%BC%8F%E5%8D%B7%E7%A7%AF%E4%B8%ADpadding%E7%9A%84%E5%A5%BD%E5%A4%84)
-	- [卷积输入输出满足的计算公式](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E5%8D%B7%E7%A7%AF%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%BB%A1%E8%B6%B3%E7%9A%84%E8%AE%A1%E7%AE%97%E5%85%AC%E5%BC%8F)
-	- [设某层有过滤器n=N，filter size = W * H * C，那么共有参数多少？](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E8%AE%BE%E6%9F%90%E5%B1%82%E6%9C%89%E8%BF%87%E6%BB%A4%E5%99%A8nnfilter-size--w--h--c%E9%82%A3%E4%B9%88%E5%85%B1%E6%9C%89%E5%8F%82%E6%95%B0%E5%A4%9A%E5%B0%91)
-	- [对pooling的理解？](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E5%AF%B9pooling%E7%9A%84%E7%90%86%E8%A7%A3)
-	- [1 * 1 卷积核的理解](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#1--1-%E5%8D%B7%E7%A7%AF%E6%A0%B8%E7%9A%84%E7%90%86%E8%A7%A3)
+	- [激活函数](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0)
+	- [Softmax](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#softmax)
+	- [卷积](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E5%8D%B7%E7%A7%AF)
+	- [深层网络](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%B1%82%E8%A1%A8%E7%A4%BA)
+	- [Batch_size](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#batch_size)
+	- [归一化](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E5%BD%92%E4%B8%80%E5%8C%96)
+	- [预训练与微调](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E9%A2%84%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%BE%AE%E8%B0%83fine-tuning)
+	- [学习率](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E5%AD%A6%E4%B9%A0%E7%8E%87)
+	- [Dropout](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#dropout-%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98)
+	- [数据增强](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/DL.md#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%B3%95)
+
 - [分类](Offer/DL/classify/classify.md)
 	- [LeNet5](Offer/DL/classify/LeNet5.md)
 	- [AlexNet](Offer/DL/classify/AlexNet.md)
 	- [VGG](Offer/DL/classify/VGG.md)
 	- [resnet](Offer/DL/classify/resnet.md)
+
 - [目标检测](Offer/DL/object-detection/object-detection-basic.md)
 	- [目标检测基础](Offer/DL/object-detection/object-detection-basic.md)
 		- [包围框回归](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/object-detection/object-detection-basic.md#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%AD%E7%9A%84%E5%8C%85%E5%9B%B4%E6%A1%86%E5%9B%9E%E5%BD%92)
 		- [NMS](https://github.com/jinbooooom/DL-ML-algorithm-paper-offer/blob/master/Offer/DL/object-detection/object-detection-basic.md#%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8Bnms)
+
 	- [SPP-Net](Offer/DL/object-detection/SPP-Net.md)
 	- [RCNN 系列](Offer/DL/object-detection/RCNN.md)
 	- [YOLOv1](Offer/DL/object-detection/YOLOv1.md)
