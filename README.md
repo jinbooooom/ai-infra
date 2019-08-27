@@ -48,13 +48,13 @@
 
 
 ## 推荐/参考链接
-### 深度学习
 - [CV 方向顶级论文和开源代码](https://paperswithcode.com/)
 - [黄博吴恩达机器学习与深度学习笔记](http://www.ai-start.com/)
 - [CVer AI-Job-Notes](https://github.com/amusi/AI-Job-Notes)
 - [深度学习 500 问](https://github.com/scutan90/DeepLearning-500-questions)
 - [算法工程师部分知识点集锦](https://note.youdao.com/ynoteshare1/index.html?id=421e6845b896bbb8acd2b8514c36c0ad&type=note#/)
 - [机器学习](https://github.com/NLP-LOVE/ML-NLP)
+- [Python3机器学习](https://zhuanlan.zhihu.com/ml-jack)
 
 ### 其他
 - [一文弄懂神经网络中的反向传播算法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html)
