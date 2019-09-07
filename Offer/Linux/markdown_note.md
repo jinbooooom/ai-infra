@@ -92,10 +92,10 @@ void embed()
 
 #### 可以跳转的图片标签
 在网站[shields.io](https://shields.io/)生成需要的标签。
-然后将显示图片的语法`![图片描述](图片地址)`，插入到链接语法`[链接描述](链接网址)` 的中括号内。
+然后将显示图片的语法`![图片描述](图片地址)`，插入到链接语法`[链接描述](链接网址)` 的中括号内。如：  
 `[![个人博客](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-999-ff69b4)](https://jinbooooom.github.io/)`  
 [![个人博客](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-999-ff69b4)](https://jinbooooom.github.io/)
-把图片标签设置居中  
+把图片标签设置居中    
 ```HTML
 <p align="center">
   <a href="https://jinbooooom.github.io/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-999-ff69b4" alt="博客"></a>
