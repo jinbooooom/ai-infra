@@ -108,9 +108,10 @@ void embed()
 [文字颜色、大小、字体与背景色的设置](https://blog.csdn.net/SimonITer/article/details/52249694)
 ### 推荐:  
 
-一些好用的 Markdown 编辑器  
-[MaHua](http://mahua.jser.me/?utm_source=mindstore.io) 在线 Markdown 编辑器 ,无须测试。  
-[MdEditor](https://www.mdeditor.com/) 渲染很不错，但与github有些不同。   
-[Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。推荐。
+#### 一些好用的 Markdown 编辑器  
+- [Linux 上 10 个最好的 Markdown 编辑器](https://linux.cn/article-7623-1.html)
+- [MaHua](http://mahua.jser.me/?utm_source=mindstore.io) 在线 Markdown 编辑器 ,无须测试。  
+- [MdEditor](https://www.mdeditor.com/) 渲染很不错，但与github有些不同。   
+- [Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。推荐。
 
 
