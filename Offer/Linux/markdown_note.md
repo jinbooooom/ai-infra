@@ -42,7 +42,7 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 #### 内嵌代码 : 
 
 \`\`\`语言名 
- 
+
 代码  
 \`\`\`
 ```python
@@ -95,6 +95,7 @@ void embed()
 `[![个人博客](sources/1.svg)](https://jinbooooom.github.io/)`  
 [![个人博客](sources/1.svg)](https://jinbooooom.github.io/)
 把图片标签设置居中    
+
 ```HTML
 <p align="center">
   <a href="https://jinbooooom.github.io/"><img src="sources/1.svg" alt="博客"></a>
@@ -104,14 +105,30 @@ void embed()
   <a href="https://jinbooooom.github.io/"><img src="sources/1.svg" alt="博客"></a>
 </p>
 
+#### 数学公式
+
+使用 Typora 显示数学公式。
+
+- [Typora 常用公式的代码](https://blog.csdn.net/mingzhuo_126/article/details/82722455)
+- [myscript](https://webdemo.myscript.com/views/math/index.html#)
+- [mathcha](https://www.mathcha.io/)
 ### 链接：
+
 [文字颜色、大小、字体与背景色的设置](https://blog.csdn.net/SimonITer/article/details/52249694)
+
 ### 推荐:  
 
 #### 一些好用的 Markdown 编辑器  
 - [Linux 上 10 个最好的 Markdown 编辑器](https://linux.cn/article-7623-1.html)
+
+- [typora]()
+
 - [MaHua](http://mahua.jser.me/?utm_source=mindstore.io) 在线 Markdown 编辑器 ,无须测试。  
+
 - [MdEditor](https://www.mdeditor.com/) 渲染很不错，但与github有些不同。   
+
 - [Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。推荐。
+
+  
 
 
