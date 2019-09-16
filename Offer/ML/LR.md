@@ -55,7 +55,7 @@ P(y=0│x;θ)=1-hθ (x)
 ![model2](sources/h_model2.PNG)  
 
 ### 用逻辑回归解决多分类  
-![](sources/LR1.png)  
+![](sources/LR1.png) 
 ![](sources/LR2.png)  
 
 推荐/参考链接
