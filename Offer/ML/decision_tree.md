@@ -1,4 +1,4 @@
-### 决策树概念
+﻿### 决策树概念
 
 - 决策树是一种树形结构，其中每个内部节点表示一个属性上的判断，每个分支代表一个判断结果的输出，最后每个叶节点代表一种分类结果。
 - 决策树是监督学习。
@@ -16,13 +16,13 @@ LR模型让所有的特征都学习，而决策树更像是编程语言里的 if
 
 以银行贷款申请为例，来理解决策树。
 
-![](sources\decision_tree\decision_tree1.jpg)
+![](sources/decision_tree/decision_tree1.jpg)
 
-![](sources\decision_tree\decision_tree3.jpg)
+![](sources/decision_tree/decision_tree3.jpg)
 
 特征选择就是决定用哪个特征来划分特征空间。比如，我们通过上述数据表，用年龄或者是否有工作来划分，可以得到两个决策树，分别由这两个不同特征的根结点构成。
 
-![](sources\decision_tree\decision_tree2.jpg)
+![](sources/decision_tree/decision_tree2.jpg)
 
 
 特征选择的目的在于选取对训练数据能够分类的特征。特征选择的关键是其准则。常用的准则如下：
