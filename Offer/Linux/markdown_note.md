@@ -55,8 +55,22 @@ void embed()
     printf("Hello world");
 }
 ```
-
+### 字体
+- 文字居中：
+```HTML
+<center> 居中</center>
+```
+<center> 居中</center>
+#### 右对齐：
+```HTML
+<div style="text-align: right"> 右对齐 </div>
+```
+<div style="text-align: right"> 右对齐 </div>
+#### 设置字体：
+```HTML
 <font color=red size=3 face="黑体">遇到新用法的时候再记录</font>
+````
+<font color=red size=3 face="黑体">遇到新用法的时候再记录</font>  
 
 #### 表格
 ```markdown
