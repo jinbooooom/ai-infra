@@ -62,6 +62,7 @@
 - [数据分析](https://zhuanlan.zhihu.com/p/69869004)
 
 ### 其他
+- [计算机视觉 · 有三AI](https://www.zhihu.com/question/62482926/answer/625352436)
 - [一文弄懂神经网络中的反向传播算法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html)
 - [机器学习进阶笔记之五 | 深入理解VGG\Residual Network](https://zhuanlan.zhihu.com/p/23518167)
 - [小目标检测中的数据增广](https://mp.weixin.qq.com/s/mNi8qWG9ptIMN77FYV4-Kg)
