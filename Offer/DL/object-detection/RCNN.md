@@ -23,6 +23,8 @@ Fast R-CNN依赖于外部候选区域方法，如选择性搜索。但这些算�
 
 #### 推荐/参考链接
 - [Object Detection and Classification using R-CNNs](http://www.telesens.co/2018/03/11/object-detection-and-classification-using-r-cnns/)
+- [RCNN系列总结（RCNN,SPPNET,Fast RCNN,Faster RCNN）](https://blog.csdn.net/hust_lmj/article/details/78974348)
+- [【RCNN系列】【超详细解析】](https://blog.csdn.net/amor_tila/article/details/78809791)
 - [From R-CNN to Faster R-CNN: The Evolution of Object Detection Technology](https://dzone.com/articles/from-r-cnn-to-faster-r-cnn-the-evolution-of-object)
 - [目标检测技术演化：从R-CNN到Faster R-CNN](https://zhuanlan.zhihu.com/p/40679183)
 - [一文读懂Faster R-CNN](https://zhuanlan.zhihu.com/p/31426458)

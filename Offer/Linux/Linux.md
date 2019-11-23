@@ -15,7 +15,11 @@
 - reboot 重启
 
 ### 推荐/参考链接
+
+- [Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
+
 - [Linux常用命令（面试题）](https://blog.csdn.net/qq_40910541/article/details/80686362)
 - [深度学习中常用的linux命令](https://blog.csdn.net/ft_sunshine/article/details/91993590)
 - [linux 常用的 20 个命令](https://blog.csdn.net/q357010621/article/details/80248611)
 - [linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
+

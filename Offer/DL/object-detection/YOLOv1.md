@@ -12,7 +12,9 @@ YOLOv1使用了end-to-end的回归方法，没有region proposal步骤，直接�
 ### 如何理解损失函数
 ![loss](sources/YOLOv1_loss.png)  
 
-
 #### 推荐/参考链接
+
+- [从YOLOv1-到YOLOv3](https://blog.csdn.net/guleileo/article/details/80581858)
+
 - [YOLO损失函数解析——你真的读懂YOLO了嘛？](https://blog.csdn.net/WenDayeye/article/details/88807190)
 - [YOLO 系列损失函数理解](https://www.cnblogs.com/WSX1994/p/11226012.html)
